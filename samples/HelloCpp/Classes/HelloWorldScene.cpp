@@ -27,6 +27,7 @@ bool HelloWorld::init()
         return false;
     }
 
+#if (CC_TARGET_PLATFORM != CC_PLATFORM_NACL)
     /////////////////////////////
     // 2. add a menu item with "X" image, which is clicked to quit the program
     //    you may modify it.
@@ -43,6 +44,7 @@ bool HelloWorld::init()
     CCMenu* pMenu = CCMenu::create(pCloseItem, NULL);
     pMenu->setPosition( CCPointZero );
     this->addChild(pMenu, 1);
+#endif
 
     /////////////////////////////
     // 3. add your codes below...

@@ -27,6 +27,7 @@ THE SOFTWARE.
 #include <string>
 #include <functional>
 #include "CCObject.h"
+#include "CCStdC.h"
 
 NS_CC_BEGIN
 

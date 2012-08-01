@@ -1,0 +1,4 @@
+1)install NaCl sdk
+2)open shell window
+3)set NACL_SDK_ROOT environment variable to nacl root dir (example: set NACL_SDK_ROOT=c:\nacl\pepper20)
+4)run make.bat

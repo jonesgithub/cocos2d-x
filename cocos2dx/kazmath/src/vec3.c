@@ -28,7 +28,11 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
 #include <assert.h>
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_NACL)
+#include <string.h>
+#else
 #include <memory.h>
+#endif
 
 #include "kazmath/utility.h"
 #include "kazmath/vec4.h"

@@ -26,7 +26,11 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 /**
  * @file mat4.c
  */
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_NACL)
+#include <string.h>
+#else
 #include <memory.h>
+#endif
 #include <assert.h>
 #include <stdlib.h>
 

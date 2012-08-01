@@ -158,6 +158,14 @@ THE SOFTWARE.
     #include "platform/mac/CCStdC.h"
 #endif // CC_TARGET_PLATFORM == CC_PLATFORM_MAC
 
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_NACL)
+	#include "platform/nacl/CCAccelerometer.h"
+    #include "platform/nacl/CCApplication.h"
+    #include "platform/nacl/CCEGLView.h"
+    #include "platform/nacl/CCGL.h"
+    #include "platform/nacl/CCStdC.h"
+#endif // CC_TARGET_PLATFROM == CC_PLATFORM_NACL
+
 // script_support
 #include "script_support/CCScriptSupport.h"
 
