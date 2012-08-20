@@ -1,4 +1,7 @@
 1)install NaCl sdk
-2)open shell window
-3)set NACL_SDK_ROOT environment variable to nacl root dir (example: set NACL_SDK_ROOT=c:\nacl\pepper20)
-4)run make.bat
+2)install naclports http://naclports.googlecode.com/
+3)add to naclports directory files from cocos2dx\platform\third_party\nacl\build_with_naclports.zip archive
+4)build next naclport libraries: jpeg-8b, libpng-1.2.40, libxml2-2.8.0, tiff-4.0.2, zlib-1.2.3)
+5)open shell window
+6)set NACL_SDK_ROOT environment variable to nacl root dir (example: set NACL_SDK_ROOT=c:\nacl\pepper20)
+7)run make.bat
